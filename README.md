@@ -1,5 +1,7 @@
 # match-bits
 
+[![Clojars Project](https://img.shields.io/clojars/v/com.mckayfleming/match-bits.svg)](https://clojars.org/com.mckayfleming/match-bits)
+
 `match-bits` is a macro that helps make masking and matching against specific patterns of bits much more ergonomic.
 
 ## Installation

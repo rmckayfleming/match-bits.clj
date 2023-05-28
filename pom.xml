@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>net.clojars.rmckayfleming</groupId>
+  <groupId>com.mckayfleming</groupId>
   <artifactId>match-bits</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
-  <name>rmckayfleming/match-bits</name>
-  <description>FIXME: my new library.</description>
-  <url>https://github.com/rmckayfleming/match-bits</url>
+  <version>1.0.0</version>
+  <name>com.mckayfleming/match-bits</name>
+  <description>A macro that simplifies the process of masking and matching specific bit patterns.</description>
+  <url>https://github.com/rmckayfleming/match-bits.clj</url>
   <licenses>
     <license>
       <name>Eclipse Public License</name>
@@ -15,14 +15,14 @@
   </licenses>
   <developers>
     <developer>
-      <name>Ryan</name>
+      <name>Ryan McKay-Fleming</name>
     </developer>
   </developers>
   <scm>
-    <url>https://github.com/rmckayfleming/match-bits</url>
-    <connection>scm:git:git://github.com/rmckayfleming/match-bits.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/rmckayfleming/match-bits.git</developerConnection>
-    <tag>v0.1.0-SNAPSHOT</tag>
+    <url>https://github.com/rmckayfleming/match-bits.clj</url>
+    <connection>scm:git:git://github.com/rmckayfleming/match-bits.clj.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/rmckayfleming/match-bits.clj.git</developerConnection>
+    <tag>v1.0.0</tag>
   </scm>
   <dependencies>
     <dependency>
@@ -38,10 +38,6 @@
     <repository>
       <id>clojars</id>
       <url>https://repo.clojars.org/</url>
-    </repository>
-    <repository>
-      <id>sonatype</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
     </repository>
   </repositories>
   <distributionManagement>
