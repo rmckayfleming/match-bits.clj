@@ -92,11 +92,11 @@
    the same positions in the number. The other positions in the number will be destructured and bound
    to variables based on their character. For instance, 01aa01 will match 011001 and will bind the
    symbol a to 10 in the case body. Alphabetic characters must be contiguous. 01a1a0 is illegal."
-  [num & clauses]
+  [num & body]
   (let [test-var (gensym)
-        else-body (when (odd? (count clauses))
-                    (last clauses))
-        clauses (mapcat (fn [clause] (apply match-bits-clause test-var clause)) (partition 2 clauses))]
+        else-body (when (odd? (count body))
+                    (last body))
+        clauses (mapcat (fn [clause] (apply match-bits-clause test-var clause)) (partition 2 body))]
     `(let [~test-var ~num]
        (cond
          ~@clauses
