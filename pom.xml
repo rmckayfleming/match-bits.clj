@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.mckayfleming</groupId>
   <artifactId>match-bits</artifactId>
-  <version>1.1.0</version>
+  <version>1.1.1</version>
   <name>com.mckayfleming/match-bits</name>
   <description>A macro that simplifies the process of masking and matching specific bit patterns.</description>
   <url>https://github.com/rmckayfleming/match-bits.clj</url>
@@ -22,7 +22,7 @@
     <url>https://github.com/rmckayfleming/match-bits.clj</url>
     <connection>scm:git:git://github.com/rmckayfleming/match-bits.clj.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/rmckayfleming/match-bits.clj.git</developerConnection>
-    <tag>v1.1.0</tag>
+    <tag>v1.1.1</tag>
   </scm>
   <dependencies>
     <dependency>
