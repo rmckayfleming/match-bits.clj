@@ -1,6 +1,6 @@
-(ns rmckayfleming.match-bits-test
+(ns com.mckayfleming.match-bits-test
   (:require [clojure.test :refer :all]
-            [rmckayfleming.match-bits :refer :all]))
+            [com.mckayfleming.match-bits :refer :all]))
 
 (deftest documentation-examples
   (testing "Exact Integers Example"

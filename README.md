@@ -5,7 +5,15 @@
 `match-bits` is a macro that helps make masking and matching against specific patterns of bits much more ergonomic.
 
 ## Installation
-TODO: Add rmckayfleming.match-bits to your dependencies.
+For Clojure CLI/deps.edn:
+```clojure
+com.mckayfleming/match-bits {:mvn/version "1.1.0"}
+```
+
+For Leiningen/Boot projects:
+```clojure
+[com.mckayfleming/match-bits "1.1.0"]
+```
 
 ## Usage
 
@@ -13,7 +21,7 @@ You can use the macro in a given namespace like so:
 
 ```clojure
 (ns your.namespace
-  (:require [rmckayfleming.match-bits :refer [match-bits]]))
+  (:require [com.mckayfleming.match-bits :refer [match-bits]]))
 ```
 
 # Interface
@@ -145,5 +153,3 @@ variables (requires the `ci` task be run first):
 ```bash
 clojure -T:build deploy
 ```
-
-Your library will be deployed to net.clojars.rmckayfleming/match-bits on clojars.org by default.

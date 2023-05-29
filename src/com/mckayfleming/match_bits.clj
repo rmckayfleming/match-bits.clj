@@ -1,4 +1,4 @@
-(ns rmckayfleming.match-bits
+(ns com.mckayfleming.match-bits
   (:require [clojure.string :as str]
             [clojure.set :as set]))
 
