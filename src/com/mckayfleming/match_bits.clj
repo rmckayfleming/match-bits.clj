@@ -92,6 +92,8 @@
    the same positions in the number. The other positions in the number will be destructured and bound
    to variables based on their character. For instance, 01aa01 will match 011001 and will bind the
    symbol a to 10 in the case body. Alphabetic characters must be contiguous. 01a1a0 is illegal."
+  {:clj-kondo/config
+   '{:linters {:unresolved-symbol {:exclude-patterns ["^%" "^(.)\\1+$"]}}}}
   [num & body]
   (let [test-var (gensym)
         else-body (when (odd? (count body))

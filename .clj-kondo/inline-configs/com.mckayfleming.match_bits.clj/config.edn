@@ -1,0 +1,1 @@
+{:config-in-call {com.mckayfleming.match-bits/match-bits {:linters {:unresolved-symbol {:exclude-patterns ["^%" "^(.)\\1+$"]}}}}}
